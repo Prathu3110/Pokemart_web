@@ -1,4 +1,3 @@
-# Pokemart_web
 # PokéMart Website
 
 A simple static website inspired by the PokéMart from the Pokémon games.
