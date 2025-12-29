@@ -24,3 +24,14 @@ This project focuses on building a complete front-end website using only core we
 - JavaScript  
 
 
+---
+
+![Screenshot 1](screenshots/1.jpg)
+![Screenshot 2](screenshots/2.jpg)
+![Screenshot 3](screenshots/3.jpg)
+![Screenshot 4](screenshots/4.jpg)
+![Screenshot 5](screenshots/5.jpg)
+![Screenshot 6](screenshots/6.jpg)
+
+
+
