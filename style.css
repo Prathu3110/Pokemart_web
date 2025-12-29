@@ -1,11 +1,9 @@
-/* =========================
+/* 
    Google Fonts
-========================= */
+ */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
-/* =========================
-   Global Reset
-========================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +11,9 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* =========================
-   Root Variables (Poké Mart)
-========================= */
+/* 
+   Root 
+ */
 :root {
   /* Colors */
   --white-color: #ffffff;
@@ -50,9 +48,9 @@
   --site-max-width: 1300px;
 }
 
-/* =========================
-   Base Elements
-========================= */
+/* 
+   Base 
+*/
 html {
   scroll-behavior: smooth;
 }
@@ -81,9 +79,9 @@ img {
   max-width: var(--site-max-width);
 }
 
-/* =========================
+/*
    Section Title
-========================= */
+ */
 section .section-title {
   text-align: center;
   padding: 60px 0 100px;
@@ -103,9 +101,9 @@ section .section-title::after {
   border-radius: var(--border-radius-s);
 }
 
-/* =========================
+/* 
    Navbar
-========================= */
+ */
 header {
   position: fixed;
   width: 100%;
@@ -157,9 +155,9 @@ header .navbar {
     image-rendering: pixelated;
   }
 
-/* =========================
+/* 
    Hero Section
-========================= */
+ */
 .hero-section {
   min-height: 100vh;
   background: linear-gradient(
@@ -224,9 +222,9 @@ header .navbar {
   max-width: 500px;
 }
 
-/* =========================
+/* 
    About Section
-========================= */
+ */
 .about-section {
   padding: 120px 0;
   background: var(--accent-color);
@@ -258,9 +256,9 @@ header .navbar {
   text-align: center;
 }
 
-/* =========================
-   Items / Menu Section
-========================= */
+/* 
+   Items / menu section
+ */
 .menu-section {
   background: #b0b0b0;
   padding: 60px 0 120px;
@@ -295,9 +293,9 @@ header .navbar {
   font-size: var(--font-size-m);
 }
 
-/* =========================
-   Testimonials / Staff
-========================= */
+/* 
+   Testimonials 
+ */
 .testimonials-section {
   background: var(--accent-color);
   padding: 60px 0 120px;
@@ -328,9 +326,9 @@ header .navbar {
   line-height: 24px;
 }
 
-/*  ========================
+/*  
    Gallery
-========================= */
+ */
 .gallery-section {
   padding: 60px 0 120px;
 }
@@ -356,9 +354,9 @@ header .navbar {
   transform: scale(1.15);
 }
 
-/* =========================
-   Contact Section
-========================= */
+/* 
+   Contact section
+ */
 .contact-section {
     padding: 80px 0 120px;
     background: var(--accent-color);
@@ -389,7 +387,7 @@ header .navbar {
     font-size: 1.4rem;
   }
   
-  /* RIGHT SIDE (FORM CARD) */
+  /* RIGHT SIDE  */
   .contact-form {
     background: var(--white-color);
     padding: 35px;
@@ -437,9 +435,9 @@ header .navbar {
   }
   
   
-/* =========================
+/* 
    Footer
-========================= */
+ */
 .footer-section {
   padding: 20px 0;
   background: var(--dark-color);
@@ -456,9 +454,9 @@ header .navbar {
   font-size: var(--font-size-s);
 }
 
-/* =========================
+/* 
    Responsive
-========================= */
+ */
 @media screen and (max-width: 900px) {
   .hero-section .section-content {
     flex-direction: column-reverse;
